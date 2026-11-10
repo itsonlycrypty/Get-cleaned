@@ -20,6 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Notice the ID here is ramValue -->
     <TextView
         android:id="@+id/ramValue"
         android:layout_width="wrap_content"
@@ -33,6 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="40dp"/>
 
+    <!-- Notice the ID here is boostBtn -->
     <Button
         android:id="@+id/boostBtn"
         android:layout_width="200dp"
